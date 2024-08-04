@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(85,85,85);
+}
+a,.btn{
+    transition: all 300ms ease;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    gap: 2rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:rgb(181,181,181) ;
+}
+.logo{
+    font-size: 1.9rem;
+    cursor: default;
+}
+section{
+    padding: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    height: 80vh;
+}
+.profile-pic-container{
+    display: flex;
+    height: 350px; 
+    width: 350px;
+    margin:  auto 0;
+    background-image: url('profile-image.jpeg');
+    background-size: 200%;
+    background-position: center 25% ; 
+    border-radius: 50%;
+}
+
+
+.section-text{
+    align-self: center;
+    text-align: center;
+}
+.section-text p{
+    font-weight: 700px;
+}
+.section-text-p1{
+    text-align: center;
+    font-size: 1rem;
+}
+.section-text-p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn-color{
+    border: rgba(53,53,53)0.1 rem solid;
+}
+.btn-color:hover{
+    background: rgba(53,53,53);
+    color: white;
+}
+#about-me{
+    padding: 3rem 0;
+   
+}
+.about-pic {
+    display: flex;
+    flex: 1;
+    height: 400px; 
+    width: 500px;
+    background-size: cover;
+   
+}
+.about-pic img{
+    border-radius: 10px;
+    
+}
+    
+    
+
+.about-details{
+   flex-direction: column;
+   display: flex;
+   padding: 3rem;
+   flex: 1.8;
+   font-size: 1.1rem;
+   line-height: 1.6;
+
+}
+.about-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-top: 6rem;
+    text-align: left;
+}
+#skills{
+    position: relative;
+}
+.skills-container{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    text-align: center;
+    
+    
+}
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+    
+}
+article{
+    display: flex;
+    
+    width: 10rem;
+    height: 3rem;
+    justify-content: space-around;
+    gap: 0.5em;
+}
+article img{
+    width:20px;
+    height: 20px;
+    cursor: default;
+}
+#projects{
+    position: relative;
+}
+.container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em;
+    flex: 1;
+    background: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:0rem;
+    padding-top: 0rem;
+    
+    
+}
+.project-container{
+    width: 600px;
+
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em;
+    flex: 1;
+    background: white;
+    text-align: center;
+}
+.project-img{
+    border: rgb(53,53,53) 0.1rem solid;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+.contact-icon{
+    width:50px;
+    height: 50px;
+    cursor: default;
+}
+#contact{
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+}
+.contact-subcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+
+}
+
+
